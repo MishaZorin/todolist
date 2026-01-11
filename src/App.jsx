@@ -58,7 +58,7 @@ function App() {
 
       }
       else {
-        let newTask = { text: inputValue }
+        let newTask = { text: inputValue, tab: activeTab }
         nextTasks.push(newTask)
 
       }
